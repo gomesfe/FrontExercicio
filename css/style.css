@@ -1,0 +1,138 @@
+:root {
+  --color-grey-300: #909090;
+  --color-grey-900: #333333;
+  --color-pink-500: #dc0155;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-grey-900);
+}
+
+.site-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.site-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 28px;
+  color: var(--color-pink-500);
+}
+
+.nav-menu {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu ul li {
+  font-size: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.main-content {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 60px;
+  margin-bottom: 40px;
+}
+
+.content-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hero-content h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.brand-highlight {
+  color: var(--color-pink-500);
+}
+
+.cta-button {
+  background-color: var(--color-pink-500);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 30px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.services-area {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.services-title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.services-list {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.service-item {
+  flex: 1 1 120px;
+  max-width: 140px;
+}
+
+.service-item img {
+  height: 32px;
+  margin-bottom: 5px;
+}
+
+.service-item h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.service-item p {
+  font-size: 14px;
+  color: var(--color-grey-300);
+}
+
+.content-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  width: 100%;
+  max-height: 100%;
+}
